@@ -22,5 +22,7 @@ public class DecoManager : MonoBehaviour
 
         yield return new WaitForSeconds(1);
         StartCoroutine("RoadLines");
+
+        
     }
 }
