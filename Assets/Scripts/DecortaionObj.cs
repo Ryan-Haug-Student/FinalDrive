@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DecortaionObj : MonoBehaviour
 {
-    private int speed = 25; //link to Player controller speed when made
+    private float speed = 25; //link to Player controller speed when made
     private float DFZ = -1; //distance from zero, used for paralax
 
     private void Start()
@@ -16,6 +16,8 @@ public class DecortaionObj : MonoBehaviour
     {
         if (transform.position.z < -150)
             Destroy(gameObject);
+
+        speed = CarManager.i.speed;
 
         transform.position += Vector3.back * speed / (DFZ / 100) * Time.deltaTime;
     }

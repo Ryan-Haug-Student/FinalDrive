@@ -769,6 +769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 882463657}
+  - component: {fileID: 882463658}
   m_Layer: 0
   m_Name: CarManager
   m_TagString: Untagged
@@ -791,6 +792,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 241428406}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &882463658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882463656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f586f7ddf52b1464e9532a9490c2b558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 40
+  timeBetween: 25
+  timeScale: 1
+  canSpawn: 1
+  cars:
+  - {fileID: 3526656333118620634, guid: 560773f1243613d42bec8f476ea5936d, type: 3}
+  - {fileID: 5965209700560220994, guid: 68498c83b32bc794f95c8b8105f2f8d5, type: 3}
+  - {fileID: 6036943006681877870, guid: 7ee328feae54bc84cb567a695f15aee3, type: 3}
+  - {fileID: 7694763722262773211, guid: 2bb9d825529cdd3408da19b8047b6cf6, type: 3}
 --- !u!1 &928866475
 GameObject:
   m_ObjectHideFlags: 0
