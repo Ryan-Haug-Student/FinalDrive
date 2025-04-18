@@ -159,7 +159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5830482096675940153}
-  - component: {fileID: 2133098172560747003}
+  - component: {fileID: -5550586938037054826}
   m_Layer: 0
   m_Name: Minivan
   m_TagString: Untagged
@@ -175,7 +175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5965209700560220994}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
@@ -184,7 +184,7 @@ Transform:
   - {fileID: 7360507127923070755}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2133098172560747003
+--- !u!114 &-5550586938037054826
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5965209700560220994}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 101eb80d26ddd294bbdb034d9e4a6449, type: 3}
+  m_Script: {fileID: 11500000, guid: e02a195dafcd9724d9e2f0005374bb25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6651656792045175038

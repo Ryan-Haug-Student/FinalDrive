@@ -28,8 +28,8 @@ public class Bike : MonoBehaviour
     private void Move()
     {
         if (-lean < 0 && pivot.transform.position.x < 5.6f)
-            pivot.transform.position += new Vector3(0.001f * lean, 0, 0);
+            pivot.transform.position += new Vector3(0.0017f * lean, 0, 0);
         else if (-lean > 0 && pivot.transform.position.x > -5.6f)
-            pivot.transform.position += new Vector3(0.001f * lean, 0, 0);
+            pivot.transform.position += new Vector3(0.0017F * lean, 0, 0);
     }
 }

@@ -49,7 +49,7 @@ public class CarManager : MonoBehaviour
             int spawnPos = Random.Range(0, 3);
 
             if (spawnPos != lastSpawnPos)
-            { Instantiate(cars[Random.Range(0, 4)], lanes[spawnPos], Quaternion.Euler(0, 180, 0)); lastSpawnPos = spawnPos; }
+            { Instantiate(cars[Random.Range(0, 4)], lanes[spawnPos], Quaternion.Euler(0, 0, 0)); lastSpawnPos = spawnPos; }
             else
                 break;
         }
