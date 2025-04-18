@@ -26,7 +26,8 @@ public class BikeThrottle : MonoBehaviour
     private void Update()
     {
         if (grabbed)
-            throttlePerc = Mathf.Clamp01((hand.transform.localRotation.z - initialZ) * 5);
+            throttlePerc = Mathf.Clamp01((initialZ - hand.transform.localRotation.z) * 2);
+
     }
 
 

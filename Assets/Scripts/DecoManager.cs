@@ -17,8 +17,9 @@ public class DecoManager : MonoBehaviour
 
     private IEnumerator RoadLines()
     {
-        Instantiate(roadLine, new Vector3(2, -.47f, 100), Quaternion.identity);
-        Instantiate(roadLine, new Vector3(-2, -.47f, 100), Quaternion.identity);
+        Instantiate(roadLine, new Vector3(2, -.47f, 500), Quaternion.identity);
+        Instantiate(roadLine, new Vector3(-2, -.47f, 500), Quaternion.identity);
+
 
         yield return new WaitForSeconds(1);
         StartCoroutine("RoadLines");
