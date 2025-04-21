@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8479848213551567903}
   - component: {fileID: 8421889595943564877}
   - component: {fileID: 1470504782640366559}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TiresOrnateRearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4120881284338712781}
   - component: {fileID: 6684758188705516587}
   - component: {fileID: 3673835247907200307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TiresOrnateFrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3875850083011106521}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 6670494975007087569}
   - component: {fileID: 162435827219921600}
   - component: {fileID: 294052262724341888}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TiresOrnateFrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 190829508497921119}
   - component: {fileID: 4289672061442444628}
   - component: {fileID: 8789336498997066421}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TiresOrnateRearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 4809191179973429945}
   - component: {fileID: 7773763300583658284}
   - component: {fileID: 4713718383763833953}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -504,7 +504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4059073568464304505}
   - component: {fileID: -2185142219346589381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Police
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,6 +540,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e02a195dafcd9724d9e2f0005374bb25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  car:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &8245976993409548970
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,7 +552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8729182029306402832}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelsOrnate
   m_TagString: Untagged
   m_Icon: {fileID: 0}

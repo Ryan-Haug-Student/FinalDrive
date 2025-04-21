@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7360507127923070755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 3705352726350741181}
   - component: {fileID: 6657308305675465147}
   - component: {fileID: 2126314263590218590}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelComplexFrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5634254276324752471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelsComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5830482096675940153}
   - component: {fileID: -5550586938037054826}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Minivan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,6 +196,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e02a195dafcd9724d9e2f0005374bb25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  car:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &6651656792045175038
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,7 +210,7 @@ GameObject:
   - component: {fileID: 6270345698250234436}
   - component: {fileID: 6965773010638050785}
   - component: {fileID: 5138487244159803691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +294,7 @@ GameObject:
   - component: {fileID: 1632530556981816515}
   - component: {fileID: 7353739483895206279}
   - component: {fileID: 1446924349703665860}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelComplexRearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +377,7 @@ GameObject:
   - component: {fileID: 8721228483447873088}
   - component: {fileID: 7825681207434827441}
   - component: {fileID: 8606350703225720643}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelComplexRearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -457,7 +460,7 @@ GameObject:
   - component: {fileID: 2966091089104117150}
   - component: {fileID: 6052175322967203630}
   - component: {fileID: 6191116971794006889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelComplexFrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}

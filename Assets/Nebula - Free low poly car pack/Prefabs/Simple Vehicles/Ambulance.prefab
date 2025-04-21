@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7860385734704532439}
   - component: {fileID: 2304730165179551271}
   - component: {fileID: 4670776074596779522}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelSimpleFrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8407608557142511908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 3900547935792386693}
   - component: {fileID: 5558477539719382377}
   - component: {fileID: 2928499150456744362}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelSimpleFrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2639608823373788739}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Meshes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3716173791827209289}
   - component: {fileID: 378272236519230767}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ambulance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,6 +279,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e02a195dafcd9724d9e2f0005374bb25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  car:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &3715176043198427016
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +293,7 @@ GameObject:
   - component: {fileID: 4090715702260036914}
   - component: {fileID: 1110981547057314455}
   - component: {fileID: 2922282680127950429}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +377,7 @@ GameObject:
   - component: {fileID: 5275277288485677773}
   - component: {fileID: 2697561159254069694}
   - component: {fileID: 4284847534471365015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelSimpleRearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -457,7 +460,7 @@ GameObject:
   - component: {fileID: 8634353444982511157}
   - component: {fileID: 486753928949588131}
   - component: {fileID: 4154267420453111272}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelSimpleRearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}

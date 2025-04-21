@@ -7,26 +7,22 @@ public class Car : MonoBehaviour
     float speed;
     float currentSpeed;
 
-    bool aboutToCollide;
+    public LayerMask car;
 
     void Start()
     {
         speed = Random.Range(0.6f, .7f);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        currentSpeed = speed * CarManager.i.speed * Time.deltaTime;
+        if (Physics.Raycast(transform.position + Vector3.up, Vector3.back, 5, car))
+            speed -= .1f;
 
+        currentSpeed = Mathf.Clamp(speed * CarManager.i.speed * Time.deltaTime, 0.5f, 0.7f);
         transform.position += Vector3.back * currentSpeed;
 
         if (transform.position.z < -150)
             Destroy(gameObject);
-    }
-
-    void CheckForCollision()
-    {
-
     }
 }
