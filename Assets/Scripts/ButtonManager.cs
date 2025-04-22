@@ -5,8 +5,33 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
-    public void StartGame()
+    public void Traffic(int num)
     {
-        SceneManager.LoadScene("3LaneLevel");
+        PlayerPrefs.SetInt("carFreq", num);
+        SavePrefs();
+    }
+
+    public void Lanes(int num)
+    {
+        PlayerPrefs.SetInt("lanes", num);
+        SavePrefs();
+    }
+
+    public void ArcadeMode(int num)
+    {
+        PlayerPrefs.SetInt("arcadeBool", num);
+        SavePrefs();
+    }
+
+    public void Play()
+    {
+        //SceneManager.LoadScene($"{PlayerPrefs.GetInt("lanes")}Lane");
+        print($"{PlayerPrefs.GetInt("lanes")}Lane");
+    }
+
+    private void SavePrefs()
+    {
+        PlayerPrefs.Save();
+        print("Updated!");
     }
 }
