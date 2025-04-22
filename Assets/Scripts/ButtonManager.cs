@@ -17,16 +17,15 @@ public class ButtonManager : MonoBehaviour
         SavePrefs();
     }
 
-    public void ArcadeMode(int num)
+    public void Lives(int num)
     {
-        PlayerPrefs.SetInt("arcadeBool", num);
+        PlayerPrefs.SetInt("lives", num);
         SavePrefs();
     }
 
     public void Play()
     {
-        //SceneManager.LoadScene($"{PlayerPrefs.GetInt("lanes")}Lane");
-        print($"{PlayerPrefs.GetInt("lanes")}Lane");
+        SceneManager.LoadScene($"{PlayerPrefs.GetInt("lanes", 3)}Lane");
     }
 
     private void SavePrefs()

@@ -28,6 +28,9 @@ public class CarManager : MonoBehaviour
           new Vector3(0, 0, 500),       //right lane
           new Vector3(4f, 0, 500)      //right lane 
         };
+
+        timeBetween = PlayerPrefs.GetInt("carFreq", 3);
+        print(PlayerPrefs.GetInt("carFreq"));
     }
 
     private void Update()

@@ -17,7 +17,7 @@ public class Car : MonoBehaviour
     void Update()
     {
         if (Physics.Raycast(transform.position + Vector3.up, Vector3.back, 5, car))
-            speed -= .1f;
+            speed -= .15f;
 
         currentSpeed = Mathf.Clamp(speed * CarManager.i.speed * Time.deltaTime, 0.5f, 0.7f);
         transform.position += Vector3.back * currentSpeed;
