@@ -24,9 +24,9 @@ public class CarManager : MonoBehaviour
             i = this;
 
         lanes = new Vector3[]
-        { new Vector3(-4f, 0, 500),     //left lane
-          new Vector3(0, 0, 500),       //right lane
-          new Vector3(4f, 0, 500)      //right lane 
+        { new Vector3(-4f, 1f, 500),     //left lane
+          new Vector3(0, 1f, 500),       //right lane
+          new Vector3(4f, 1f, 500)      //right lane 
         };
 
         timeBetween = PlayerPrefs.GetInt("carFreq", 3);
@@ -53,7 +53,7 @@ public class CarManager : MonoBehaviour
             float laneVarience = Random.Range(-.5f, .5f);
 
             if (spawnPos != lastSpawnPos)
-            { Instantiate(cars[Random.Range(0, 4)], lanes[spawnPos] + (Vector3.right * laneVarience), Quaternion.Euler(0, 0, 0)); lastSpawnPos = spawnPos; }
+            { Instantiate(cars[Random.Range(0, cars.Length)], lanes[spawnPos] + (Vector3.right * laneVarience), Quaternion.Euler(0, -90, 0)); lastSpawnPos = spawnPos; }
             else
                 break;
         }
