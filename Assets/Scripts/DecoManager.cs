@@ -21,7 +21,7 @@ public class DecoManager : MonoBehaviour
         Instantiate(roadLine, new Vector3(-2, -.47f, 500), Quaternion.identity);
 
 
-        yield return new WaitForSeconds(75 / CarManager.i.speed);
+        yield return new WaitForSeconds(1);
         StartCoroutine("RoadLines");
     }
 }
