@@ -17,7 +17,7 @@ public class DecortaionObj : MonoBehaviour
         if (transform.position.z < -150)
             Destroy(gameObject);
 
-        speed = CarManager.i.speed;
+        speed = CarManager.i.speed * 1.8f;
 
         transform.position += Vector3.back * speed / (DFZ / 100) * Time.deltaTime ;
     }
