@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bike : MonoBehaviour
 {
@@ -31,5 +32,10 @@ public class Bike : MonoBehaviour
             pivot.transform.position += new Vector3(0.0017f * lean, 0, 0);
         else if (-lean > 0 && pivot.transform.position.x > -5.6f)
             pivot.transform.position += new Vector3(0.0017F * lean, 0, 0);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        SceneManager.LoadScene("Lobby");
     }
 }
