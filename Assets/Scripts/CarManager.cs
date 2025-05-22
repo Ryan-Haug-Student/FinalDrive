@@ -58,7 +58,7 @@ public class CarManager : MonoBehaviour
                 break;
         }
 
-        yield return new WaitForSeconds(timeBetween / (speed / 10));
+        yield return new WaitForSeconds(timeBetween / (speed / 12));
         canSpawn = true;
     }
 }

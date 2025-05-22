@@ -36,6 +36,6 @@ public class Bike : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Lobby");
+        SceneManager.LoadScene("DeathScene");
     }
 }
