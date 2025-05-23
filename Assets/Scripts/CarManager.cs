@@ -24,12 +24,12 @@ public class CarManager : MonoBehaviour
             i = this;
 
         lanes = new Vector3[]
-        { new Vector3(-4f, 1f, 500),     //left lane
-          new Vector3(0, 1f, 500),       //right lane
-          new Vector3(4f, 1f, 500)      //right lane 
+        { new Vector3(-4f, 0.8f, 500),     //left lane
+          new Vector3(0, 0.8f, 500),       //right lane
+          new Vector3(4f, 0.8f, 500)      //right lane 
         };
 
-        timeBetween = PlayerPrefs.GetInt("carFreq", 3);
+        timeBetween = PlayerPrefs.GetInt("carFreq", 3) * 1.6f;
         print(PlayerPrefs.GetInt("carFreq"));
     }
 
@@ -49,7 +49,7 @@ public class CarManager : MonoBehaviour
 
         for (int i = 0; i < quantity; i++)
         {
-            int spawnPos = Random.Range(0, 3);
+            int spawnPos = Random.Range(0, lanes.Length);
             float laneVarience = Random.Range(-.5f, .5f);
 
             if (spawnPos != lastSpawnPos)

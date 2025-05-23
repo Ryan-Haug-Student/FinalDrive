@@ -11,7 +11,7 @@ public class Car : MonoBehaviour
 
     void Start()
     {
-        speed = Random.Range(0.6f, .7f);
+        speed = Random.Range(0.6f, .64f);
     }
 
     void Update()

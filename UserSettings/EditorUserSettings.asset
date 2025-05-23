@@ -5,32 +5,38 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    GraphicsSettingsInspector_UserSettings:
+      value: 18134705175a055722080a3115371d4a0d55006876786860616b0471b8b66076b2fa7aabf7332f39350be139222b0d33c613190ed80a070e5354bf2c04f61c075cec168707
+      flags: 0
     RecentlyUsedSceneGuid-0:
-      value: 5604500706560a0b540f5f20467a094441151a2b2e7972652f7c4932b1e1366b
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 57540d0000535b0d08580d26127b0744414e192e7d2a7f687e7d1c60b0e46d6c
-      flags: 0
-    RecentlyUsedSceneGuid-2:
-      value: 00540c5355565f5f5a5708774274084442154f7c742e77662e701c67e1b96139
-      flags: 0
-    RecentlyUsedSceneGuid-3:
-      value: 5a57005150075f5f5b585b72427b0a4447164b7b2e7972602c7b4931b0e2656a
-      flags: 0
-    RecentlyUsedSceneGuid-4:
       value: 060252005d560d080f5c597043700c4442164a292d2974367e2d4863bab6663a
       flags: 0
-    RecentlyUsedSceneGuid-5:
+    RecentlyUsedSceneGuid-1:
       value: 56020c575d0d590d5b5f5f26427a0a44454e48292a7f776978284932b6b9353e
       flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 0153555204570b5e585b5d7645200a444e4f1c2c797e73607c794b63bbb5353d
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5a52050457015b0a085f5b7146210c44144f487f7a787262792f4831e4b7306d
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5705010701500f5f5808097511200d441315407f742a77667b284b32b0e53168
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5b50560000540d5a0c560e2346250744124e1d7e287125607f704b66b4b0603e
+      flags: 0
     RecentlyUsedSceneGuid-6:
-      value: 560301545d055d5f0f570a7316705d444e4e1e2c2d2b27647c7b1e31e6b66c6f
+      value: 5b0404575304510b58085c7440225d44134f4b2c7d787635797b1c30b2b4626f
       flags: 0
     RecentlyUsedSceneGuid-7:
-      value: 5a0607040603580f0e0d5c7411200f44444f4f282d2d7331282d1937e1b33669
+      value: 560301545d055d5f0f570a7316705d444e4e1e2c2d2b27647c7b1e31e6b66c6f
       flags: 0
     RecentlyUsedSceneGuid-8:
-      value: 0153555204570b5e585b5d7645200a444e4f1c2c797e73607c794b63bbb5353d
+      value: 5457565106070a0b5a080a7b117259444716407e7a702067792c4d62b1b26d68
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 5a0607040603580f0e0d5c7411200f44444f4f282d2d7331282d1937e1b33669
       flags: 0
     lightmappingBakingProfile:
       value: 51
